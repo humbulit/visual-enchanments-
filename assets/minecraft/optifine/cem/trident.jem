@@ -1,0 +1,50 @@
+{
+	"texture": "textures/entity/trident.png",
+	"textureSize": [32, 32],
+	"models": [
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -27, 0],
+			"boxes": [
+				{
+					"coordinates": [-1.5, 25, -0.5, 3, 2, 1],
+					"uvNorth": [15, 5, 18, 7],
+					"uvEast": [17, 5, 18, 7],
+					"uvSouth": [15, 5, 18, 7],
+					"uvWest": [15, 5, 16, 7],
+					"uvUp": [18, 6, 15, 5],
+					"uvDown": [18, 6, 15, 7]
+				},
+				{
+					"coordinates": [-0.5, 0, -0.5, 1, 31, 1],
+					"uvNorth": [16, 1, 17, 32],
+					"uvEast": [16, 1, 17, 32],
+					"uvSouth": [16, 1, 17, 32],
+					"uvWest": [16, 1, 17, 32],
+					"uvUp": [17, 2, 16, 1],
+					"uvDown": [17, 31, 16, 32]
+				},
+				{
+					"coordinates": [1.5, 26, -0.5, 1, 4, 1],
+					"uvNorth": [18, 2, 19, 6],
+					"uvEast": [18, 2, 19, 6],
+					"uvSouth": [18, 2, 19, 6],
+					"uvWest": [18, 2, 19, 6],
+					"uvUp": [19, 3, 18, 2],
+					"uvDown": [19, 5, 18, 6]
+				},
+				{
+					"coordinates": [-2.5, 26, -0.5, 1, 4, 1],
+					"uvNorth": [14, 2, 15, 6],
+					"uvEast": [14, 2, 15, 6],
+					"uvSouth": [14, 2, 15, 6],
+					"uvWest": [14, 2, 15, 6],
+					"uvUp": [15, 3, 14, 2],
+					"uvDown": [15, 5, 14, 6]
+				}
+			]
+		}
+	]
+}
